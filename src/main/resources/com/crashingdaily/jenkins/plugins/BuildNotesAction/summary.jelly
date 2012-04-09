@@ -37,10 +37,10 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       <p>
       <j:choose>
       <j:when test="${it.isPlainText}">
-        <pre><st:out value="${it.content!=null ? it.content : ''}"/></pre>
+        <pre><st:out value="${it.content}"/></pre>
       </j:when>
       <j:otherwise>
-        <j:out value="${it.content!=null ? app.markupFormatter.translate(it.content) : ''}" />
+        <j:out value="${app.markupFormatter.translate(it.content)}" />
       </j:otherwise>
       </j:choose>
       </p>
