@@ -67,4 +67,10 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <scm>
+    <connection>scm:git@github.com:crashingdaily/show-build-notes.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:crashingdaily/show-build-notes.git</developerConnection>
+    <url>https://github.com/crashingdaily/show-build-notes</url>
+  </scm>
+
 </project>
